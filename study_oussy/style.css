@@ -1,0 +1,185 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+header{
+    height: 50px;
+}
+
+/**section-heading*/
+.section-heading {
+    color: rgb(22, 224, 107);
+}
+
+/**header*/
+
+@media(max-width: 768px) {
+
+    .header-social-icon {
+        display: none;
+
+    }
+}
+
+/* nav bar*/
+
+nav {
+    background: rgb(33, 197, 55) !important;
+    box-shadow: 1px 1px 2px #f1b3b344;
+}
+
+
+
+nav .navbar-brand {
+    color: black !important;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    padding: none !important;
+}
+
+/***/
+
+
+.carousel-inner .carousel-item {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner .carousel-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.carousel-inner .carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+.carousel-inner .carousel-caption h5 {
+    color: rgb(24, 184, 85);
+    margin-bottom: 7px;
+    font-size: 25px;
+    font-weight: 700px;
+    width: 85%;
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+
+.carousel-inner .carousel-caption p {
+    font-size: 22px;
+    width: 85%;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+@media(max-width: 768px) {
+    .carousel-inner .carousel-caption h2 {
+        font-size: 35px;
+    }
+    .textt{
+        height: 260vh;
+        margin-top: 60px;
+       }
+       
+       .textt p{
+           margin-left: 40px;
+           font-size: 10px;
+       }
+       
+       .counsel-how{
+           height: 160vh;
+       }
+
+
+}
+
+@media(max-width: 577px) {
+    .carousel-inner .carousel-caption h2 {
+        font-size: 25px;
+    }
+
+    .carousel-inner .carousel-caption p {
+        font-size: 15px;
+    }
+    .textt{
+        height: 260vh;
+        margin-top: 60px;
+       }
+       
+       .textt p{
+           margin-left: 40px;
+           font-size: 10px;
+       }
+       
+       .counsel-how{
+           height: 160vh;
+       }
+}
+
+
+
+/**about carousell**/
+.carousell-inner .carousell-caption h1 {
+    color: rgb(33, 197, 55);
+    margin-bottom: 7px;
+    font-size: 45px;
+    font-weight: 700px;
+    width: 85%;
+    margin-top: -65px;
+    margin-left: 100px;
+}
+
+
+
+.textt{
+ height: 260vh;
+ margin-top: 60px;
+}
+
+.textt p{
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.counsel-how{
+    height: 110vh;
+    
+}
+
+.cousell p{
+    font-size: 20px;
+}
+
+
+.para p{
+    font-size: 20px;
+}
